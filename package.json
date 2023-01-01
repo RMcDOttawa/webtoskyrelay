@@ -1,0 +1,26 @@
+{
+  "name": "webtoskyrelay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --exec babel-node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.20.7",
+    "@hapi/boom": "^10.0.0",
+    "@hapi/hapi": "^21.1.0",
+    "@hapi/inert": "^7.0.0",
+    "net": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/node": "^7.20.7",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
